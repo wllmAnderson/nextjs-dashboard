@@ -41,10 +41,15 @@
       "static/chunks/main-app.js",
       "static/chunks/app/dashboard/invoices/[id]/edit/page.js"
     ],
-    "/not-found": [
+    "/dashboard/invoices/error": [
       "static/chunks/webpack.js",
       "static/chunks/main-app.js",
-      "static/chunks/app/not-found.js"
+      "static/chunks/app/dashboard/invoices/error.js"
+    ],
+    "/dashboard/invoices/[id]/edit/not-found": [
+      "static/chunks/webpack.js",
+      "static/chunks/main-app.js",
+      "static/chunks/app/dashboard/invoices/[id]/edit/not-found.js"
     ]
   }
 }
